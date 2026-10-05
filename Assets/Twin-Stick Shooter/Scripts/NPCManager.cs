@@ -63,8 +63,9 @@ public class NPCManager : MonoBehaviour
                     break;
 
             }
-        }
+            temp.transform.position = spawnPosition;
 
+        }
     }
 
     public void UpdateList(NPCController controller)
